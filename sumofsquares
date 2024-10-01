@@ -1,0 +1,13 @@
+let n=prompt();
+let m=prompt();
+let i;
+let sos=0;
+if (n>m){
+    console.log("0")
+}
+else{
+    for(i=n;i<=m;i++){
+        sos+=(i**3);
+    }
+}
+console.log(sos);
